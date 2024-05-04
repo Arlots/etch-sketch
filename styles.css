@@ -22,6 +22,10 @@ body {
     box-sizing: border-box;
 }
 
-.red:hover {
-    background-color: red;
+
+button {
+    display: block;
+    margin: auto;
+    font-size: 24px;
+    margin-bottom: 1rem;
 }
