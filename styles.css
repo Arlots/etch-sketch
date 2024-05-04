@@ -21,3 +21,7 @@ body {
     border: 1px solid black;
     box-sizing: border-box;
 }
+
+.red:hover {
+    background-color: red;
+}
