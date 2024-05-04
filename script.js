@@ -19,7 +19,7 @@ function createGrid (size) {
 createGrid(20);
 
 function userGrid () {
-    size = prompt("Please enter a number from 1-100 to create a customer-sized square grid: ");
+    size = prompt("Please enter a number from 1-100 to create a customer-sized square grid (the default grid size is 20): ");
 
     if (size > 100) {
         size = prompt("I'm sorry but currently you may only use numbers up to 100. Please enter a number between 1-100: ")
